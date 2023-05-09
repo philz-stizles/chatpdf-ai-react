@@ -1,0 +1,37 @@
+.modal {
+  position: fixed;
+  top: 13vh;
+  left: 5%;
+  width: 90%;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 52rem;
+    left: calc(50% - 26rem);
+  }
+}

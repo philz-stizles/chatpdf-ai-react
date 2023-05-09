@@ -1,0 +1,5 @@
+.chat {
+  display: grid;
+  grid-template-columns: 17% auto;
+  min-height: 100vh;
+}

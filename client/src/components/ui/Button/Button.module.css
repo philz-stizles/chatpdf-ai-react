@@ -1,0 +1,27 @@
+.button {
+  border-radius: 6px;
+  border: 1px solid transparent;;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.4rem 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.solid {
+  background-color: #2a86db;
+  border: 1px solid #2a86db;
+  color: #fff;
+}
+
+.outlined {
+  border-color: #bccadf;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.button:hover {
+  background-color: #2679c5;
+}

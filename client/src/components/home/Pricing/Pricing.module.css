@@ -1,0 +1,83 @@
+.auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 0;
+}
+
+.prices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.8rem;
+  /* margin-bottom: 2.4rem; */
+}
+
+.price {
+  border-radius: 8px;
+  border: 1px solid #eee;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.price h2 {
+  margin-bottom: 1.8rem;
+}
+
+.price h2 span {
+  font-size: 1.4rem;
+}
+
+.price strong {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.price-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 1.4rem 2.4rem;
+}
+
+.price-header h3 {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.price-header p {
+}
+
+.price-body {
+  padding: 3.2rem 2.4rem;
+}
+
+.price-body ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.price-footer {
+  padding: 1.4rem 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+.auth button,
+.price-footer button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  background-color: #1677ff;
+  color: #fff;
+  cursor: pointer;
+}
+.sign-in {
+  text-align: center;
+}
+
+.sign-in span {
+  color: #1677ff;
+}

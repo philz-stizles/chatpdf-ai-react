@@ -1,0 +1,30 @@
+.footer {
+  padding: 1.4rem 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-nav ul li {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-nav ul li a {
+  color: rgb(132 150 170);
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-nav ul li button {
+  cursor: pointer;
+}

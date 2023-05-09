@@ -1,0 +1,52 @@
+.upload {
+  background-color: #fff;
+}
+
+.upload-content {
+  cursor: pointer;
+  border: 1px dashed #d9d9d9;
+  transition: all 0.3s;
+}
+
+.upload-content:hover {
+  border-color: #4096ff;
+}
+
+.upload-content input[type="file"] {
+  display: none;
+}
+
+.upload,
+.upload-content {
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.upload-drop-pdf {
+  text-align: center;
+  padding: 1.8rem 0;
+}
+
+.label {
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 4.2rem;
+  color: #1677ff;
+  margin-bottom: 0.8rem;
+}
+
+.upload-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1677ff;
+  font-size: 1.2rem;
+}
+
+.upload-actions__options {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
